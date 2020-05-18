@@ -36,6 +36,10 @@ export default function App() {
 
   return (
     <div className="App">
+      <select id="episodes">
+        <option value="stranger-things">Stranger Things</option>
+        <option value="lost-in-space">Lost in Space</option>
+      </select>
       <img className="poster-img" src={show.image.original} alt={show.name} />
       <h1>{show.name}</h1>
       {parse(show.summary)}
