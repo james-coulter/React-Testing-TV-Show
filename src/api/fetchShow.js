@@ -8,5 +8,5 @@ export const fetchShow = () => {
       .then (res => {
           return res.data;
       })
-      .catch(err => ('Uh oh!', err))
+      .catch(err => console.log('Uh oh!', err))
 };
